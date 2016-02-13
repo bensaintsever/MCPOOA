@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8D2E2F9B1C6E77B300068AC2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2E2F9A1C6E77B300068AC2 /* main.cpp */; };
-		8D2E2FA81C6E784500068AC2 /* Agenda.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2E2FA11C6E784500068AC2 /* Agenda.cpp */; };
-		8D2E2FA91C6E784500068AC2 /* Entree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2E2FA31C6E784500068AC2 /* Entree.cpp */; };
-		8D2E2FAB1C6E784500068AC2 /* Tableau.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D2E2FA61C6E784500068AC2 /* Tableau.cpp */; };
-		8D749DB81C6F9DDB007003EE /* Agenda.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D749DB21C6F9DDB007003EE /* Agenda.cpp */; };
-		8D749DB91C6F9DDB007003EE /* Entree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D749DB41C6F9DDB007003EE /* Entree.cpp */; };
-		8D749DBA1C6F9DDB007003EE /* Tableau.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D749DB61C6F9DDB007003EE /* Tableau.cpp */; };
+		8D749DC11C6F9F4A007003EE /* Agenda.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D749DBB1C6F9F4A007003EE /* Agenda.cpp */; };
+		8D749DC21C6F9F4A007003EE /* Entree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D749DBD1C6F9F4A007003EE /* Entree.cpp */; };
+		8D749DC31C6F9F4A007003EE /* Tableau.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D749DBF1C6F9F4A007003EE /* Tableau.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,18 +28,12 @@
 /* Begin PBXFileReference section */
 		8D2E2F971C6E77B300068AC2 /* Agenda */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Agenda; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D2E2F9A1C6E77B300068AC2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		8D2E2FA11C6E784500068AC2 /* Agenda.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Agenda.cpp; path = ../../../Agenda/Agenda/Agenda.cpp; sourceTree = "<group>"; };
-		8D2E2FA21C6E784500068AC2 /* Agenda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Agenda.h; path = ../../../Agenda/Agenda/Agenda.h; sourceTree = "<group>"; };
-		8D2E2FA31C6E784500068AC2 /* Entree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Entree.cpp; path = ../../../Agenda/Agenda/Entree.cpp; sourceTree = "<group>"; };
-		8D2E2FA41C6E784500068AC2 /* Entree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entree.h; path = ../../../Agenda/Agenda/Entree.h; sourceTree = "<group>"; };
-		8D2E2FA61C6E784500068AC2 /* Tableau.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tableau.cpp; path = ../../../Agenda/Agenda/Tableau.cpp; sourceTree = "<group>"; };
-		8D2E2FA71C6E784500068AC2 /* Tableau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tableau.h; path = ../../../Agenda/Agenda/Tableau.h; sourceTree = "<group>"; };
-		8D749DB21C6F9DDB007003EE /* Agenda.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Agenda.cpp; sourceTree = "<group>"; };
-		8D749DB31C6F9DDB007003EE /* Agenda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Agenda.h; sourceTree = "<group>"; };
-		8D749DB41C6F9DDB007003EE /* Entree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entree.cpp; sourceTree = "<group>"; };
-		8D749DB51C6F9DDB007003EE /* Entree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entree.h; sourceTree = "<group>"; };
-		8D749DB61C6F9DDB007003EE /* Tableau.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tableau.cpp; sourceTree = "<group>"; };
-		8D749DB71C6F9DDB007003EE /* Tableau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tableau.h; sourceTree = "<group>"; };
+		8D749DBB1C6F9F4A007003EE /* Agenda.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Agenda.cpp; sourceTree = "<group>"; };
+		8D749DBC1C6F9F4A007003EE /* Agenda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Agenda.h; sourceTree = "<group>"; };
+		8D749DBD1C6F9F4A007003EE /* Entree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entree.cpp; sourceTree = "<group>"; };
+		8D749DBE1C6F9F4A007003EE /* Entree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entree.h; sourceTree = "<group>"; };
+		8D749DBF1C6F9F4A007003EE /* Tableau.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tableau.cpp; sourceTree = "<group>"; };
+		8D749DC01C6F9F4A007003EE /* Tableau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tableau.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,29 +66,15 @@
 		8D2E2F991C6E77B300068AC2 /* Agenda */ = {
 			isa = PBXGroup;
 			children = (
-				8D749DB21C6F9DDB007003EE /* Agenda.cpp */,
-				8D749DB31C6F9DDB007003EE /* Agenda.h */,
-				8D749DB41C6F9DDB007003EE /* Entree.cpp */,
-				8D749DB51C6F9DDB007003EE /* Entree.h */,
-				8D749DB61C6F9DDB007003EE /* Tableau.cpp */,
-				8D749DB71C6F9DDB007003EE /* Tableau.h */,
-				8D749DB11C6F9DCB007003EE /* New Group */,
+				8D749DBB1C6F9F4A007003EE /* Agenda.cpp */,
+				8D749DBC1C6F9F4A007003EE /* Agenda.h */,
+				8D749DBD1C6F9F4A007003EE /* Entree.cpp */,
+				8D749DBE1C6F9F4A007003EE /* Entree.h */,
+				8D749DBF1C6F9F4A007003EE /* Tableau.cpp */,
+				8D749DC01C6F9F4A007003EE /* Tableau.h */,
 				8D2E2F9A1C6E77B300068AC2 /* main.cpp */,
 			);
 			path = Agenda;
-			sourceTree = "<group>";
-		};
-		8D749DB11C6F9DCB007003EE /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				8D2E2FA11C6E784500068AC2 /* Agenda.cpp */,
-				8D2E2FA21C6E784500068AC2 /* Agenda.h */,
-				8D2E2FA31C6E784500068AC2 /* Entree.cpp */,
-				8D2E2FA41C6E784500068AC2 /* Entree.h */,
-				8D2E2FA61C6E784500068AC2 /* Tableau.cpp */,
-				8D2E2FA71C6E784500068AC2 /* Tableau.h */,
-			);
-			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,13 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D749DB91C6F9DDB007003EE /* Entree.cpp in Sources */,
-				8D749DBA1C6F9DDB007003EE /* Tableau.cpp in Sources */,
-				8D749DB81C6F9DDB007003EE /* Agenda.cpp in Sources */,
-				8D2E2FA91C6E784500068AC2 /* Entree.cpp in Sources */,
+				8D749DC21C6F9F4A007003EE /* Entree.cpp in Sources */,
 				8D2E2F9B1C6E77B300068AC2 /* main.cpp in Sources */,
-				8D2E2FA81C6E784500068AC2 /* Agenda.cpp in Sources */,
-				8D2E2FAB1C6E784500068AC2 /* Tableau.cpp in Sources */,
+				8D749DC31C6F9F4A007003EE /* Tableau.cpp in Sources */,
+				8D749DC11C6F9F4A007003EE /* Agenda.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

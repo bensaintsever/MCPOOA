@@ -9,9 +9,11 @@
 #include <iostream>
 #include "Entree.h"
 #include "Tableau.h"
+#include "Agenda.h"
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    Entree e;
+    /*Entree e;
     e.editerNom_Num("ben","0611111110");
     e.afficherEntree();
     
@@ -22,7 +24,19 @@ int main(int argc, const char * argv[]) {
     t.deleteEntree("alex");
     t.afficherTableau();
     
-    cout<< "\nTaille du tableau : " <<t.getSize() << "\nNombre d'elements : " <<t.getNbElement() <<endl;
+    cout<< "\nTaille du tableau : " <<t.getSize() << "\nNombre d'elements : " <<t.getNbElement() <<endl;*/
+    Agenda a;
+    a.addToAgenda("Benjamin","0677693401");
+    a.addToAgenda("Alex","bidon");
+    a.addToAgenda("Thomas","bidon2");
+    cout<<"Affiche numéro 1 :\n"<<endl;
+    a.afficherAgenda();
+    a.deleteToAgenda("Benjamin","0677693401");
+    cout<<"Affiche numéro 2 :\n"<<endl;
+    a.afficherAgenda();
+                  
+    
+    
     
     return 0;
 }
