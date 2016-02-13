@@ -16,31 +16,13 @@ Agenda::~Agenda(void)
 
 
 Agenda::Agenda(const Agenda& agenda){
-  /*  //tab.Tableau(agenda.tab);
-    this->tab.Tableau(*agenda.tab);
-    //this->tab(agenda.tab);
-	
-	this->tailleMax = t.tailleMax;
-	this->tab = vector<Entree>(tailleMax);
-	//this->tab = new Entree[tailleMax];
-	for(int i=0; i<t.nbElem;++i){
-		this->tab[i] = t.tab[i];
-	}
-	*/
+    
+    this->tab = new Tableau(*agenda.tab);
 }
-/*
-Agenda Agenda::concat(Agenda a){
-	int s = this->tab->getNbElement() + a.tab->getNbElement();
-	Tableau* temp = new Tableau(s);
-    temp->setNbElement(s);
 
-	for (int i = 0; i<s; ++i)
-		i < this->tab->nbEntree ? 
-		temp->listeEntree[i] = this->tab->listeEntree[i]
-	  : temp->listeEntree[i] = a.tab->listeEntree[i-this->tab->nbEntree];
-
-	return new Agenda(temp);
-}*/
+void Agenda::concat(Agenda a){
+    this->tab->concatTableau(*a.tab);
+}
 void Agenda::addToAgenda(string nom ,string num){
     this->tab->addEntree(nom,num);
 }

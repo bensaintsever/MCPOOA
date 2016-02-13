@@ -31,8 +31,20 @@ int main(int argc, const char * argv[]) {
     a.addToAgenda("Thomas","bidon2");
     cout<<"Affiche numéro 1 :\n"<<endl;
     a.afficherAgenda();
-    a.deleteToAgenda("Benjamin","0677693401");
+    
+    
+    //a.deleteToAgenda("Benjamin","0677693401");
+    
+    Agenda b;
+    b.addToAgenda("Christine","06778888");
+    b.addToAgenda("Alexandra","bidon3");
+    b.addToAgenda("Thomadias","bidon4");
     cout<<"Affiche numéro 2 :\n"<<endl;
+    b.afficherAgenda();
+    
+    
+    a.concat(b);
+    cout<<"Affiche numéro 3 :\n"<<endl;
     a.afficherAgenda();
                   
     

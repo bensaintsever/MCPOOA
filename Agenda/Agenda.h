@@ -8,7 +8,7 @@ private:
 public:
 	Agenda(void);
 	Agenda(const Agenda&);
-	Agenda concat(Agenda src);
+	void concat(Agenda src);
 	void addToAgenda(string nom ,string num);
 	void deleteToAgenda(string nom ,string num);
 	void afficherAgenda();

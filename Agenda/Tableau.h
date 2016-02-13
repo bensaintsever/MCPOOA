@@ -19,6 +19,7 @@ class Tableau
 		int getNbElement(void);
         void setNbElement(int);
 		int getSize(void);
+        void concatTableau(Tableau& t);
 		void addEntree(string nom, string num);
 		void deleteEntree(string nom, string num);
 		void deleteEntree(string nom);

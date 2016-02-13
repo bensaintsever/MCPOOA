@@ -57,6 +57,16 @@ void Tableau::setNbElement(int n){
 int Tableau::getSize(void){
 	return this->tailleMax;
 }
+
+void Tableau::concatTableau(Tableau& t){
+    
+    for(int i = 0; i < t.nbElem; ++i){
+        addEntree(this->tab[i].getNom(),t.tab[i].getNum());
+    }
+    
+    this->tailleMax = this->tailleMax + t.tailleMax;
+}
+
 void Tableau::addEntree(string nom, string num){
 	//tab.push_back(Entree(nom,num));
 	tab[nbElem].editerNom_Num(nom,num);
